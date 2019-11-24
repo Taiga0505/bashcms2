@@ -1,5 +1,5 @@
-contents="bashcms2_contens"
+contents="bashcms2_contents"
 contents_owner="Taiga0505"
 wwwdir="/var/www"
-contentsdir"$wwwdir/$contents"
+contentsdir="$wwwdir/$contents"
 appdir="$wwwdir/bashcms2"
