@@ -13,7 +13,7 @@ git pull
 ### CREATE TIMESTAMP FILES IF NOT EXIST 333
 find posts pages -maxdepth 1 -type d |
 grep / |
-while read d; do
+while read da ; do
 	[ -f "$contentsdir/$d/main.md" ] &&
 		mkdir -p "$datadir/$d"   &&
 		### AD TIME FILES ###
